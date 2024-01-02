@@ -1,0 +1,11 @@
+ec2-base/.terraform/
+.terraform.lock.hcl
+
+*.tfstate*
+*.tfstate.backup
+
+*/terraform.tfvars
+
+
+*.idea
+*.vscode
