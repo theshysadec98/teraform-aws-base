@@ -1,0 +1,11 @@
+keypair_name                  = "keypair"
+instance_type_master          = "t2.micro"
+instance_type                 = "t2.micro"
+control_plane_instance_name   = "control-plane-1"
+region                        = "us-east-1"
+number_of_workers             = "0"
+include_policy_ebs_csi_driver = false
+include                       = []
+virtual_machine               = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"
+virtualization_type           = "hvm"
+canonical                     = "099720109477"
