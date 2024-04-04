@@ -1,5 +1,5 @@
 data "aws_vpc" "default_vpc" {
-  default = true
+  id = "vpc-0fbca6495b3ae09ff"
 }
 
 data "aws_subnets" "default_subnets" {

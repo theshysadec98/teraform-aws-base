@@ -19,7 +19,7 @@ locals {
 }
 
 data "aws_vpc" "default" {
-  default = true
+  id = "vpc-0fbca6495b3ae09ff"
 }
 
 resource "aws_security_group_rule" "public_rules" {
